@@ -1,0 +1,4 @@
+# tasks file for deploy-web
+- include_tasks: install-apache.yml
+- include_tasks: deploy-html.yml
+- include_tasks: restart-apache.yml
